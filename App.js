@@ -33,7 +33,7 @@ export default function App() {
   function Main(props) {
     return (
       <section>
-        <img src={"https://github.com/nabosh.png"} height={200} alt="gorilla head" />
+        <img src={"https://github.com/nabosh.png"} height={200} alt="profile image" />
       <p>We serve the most {props.adjective} food around.</p>
       <ul>
         {props.dishObjects.map((dish) => (
